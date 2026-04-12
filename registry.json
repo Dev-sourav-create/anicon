@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "acme",
-  "homepage": "https://acme.com",
+  "homepage": " http://localhost:3000",
   "items": [
     {
       "name": "hello-world",
@@ -73,6 +73,69 @@
         {
           "path": "registry/new-york/blocks/example-with-css/example-card.css",
           "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "arrow-right",
+      "type": "registry:ui",
+      "dependencies": ["lucide-react"],
+      "files": [
+        {
+          "path": "registry/new-york/icons/arrow-right/arrow-right.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "loader-circle",
+      "type": "registry:ui",
+      "title": "Loader Circle",
+      "description": "Animated loading spinner. Variants: spin (loop), pulse (loop), ping (loop).",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "registry/new-york/icons/loader-circle/loader-circle.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "check",
+      "type": "registry:ui",
+      "title": "Check",
+      "description": "Animated checkmark icon. Variants: draw (click), bounce (click), pop (hover).",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "registry/new-york/icons/check/check.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "x",
+      "type": "registry:ui",
+      "title": "X",
+      "description": "Animated X / close icon. Variants: spin (hover), shake (hover), shrink (click).",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "registry/new-york/icons/x/x.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "arrow-down-right",
+      "type": "registry:ui",
+      "title": "Arrow down Right",
+      "description": "Animated X / close icon. Variants: spin (hover), shake (hover), shrink (click).",
+      "dependencies": ["lucide-react", "framer-motion"],
+      "files": [
+        {
+          "path": "registry/new-york/icons/x/x.tsx",
+          "type": "registry:ui"
         }
       ]
     }
