@@ -82,7 +82,7 @@
       "dependencies": ["lucide-react"],
       "files": [
         {
-          "path": "registry/new-york/icons/arrow-right/arrow-right.tsx",
+          "path": "registry/new-york/icons/arrows/arrow-right/arrow-right.tsx",
           "type": "registry:ui"
         }
       ]
@@ -130,11 +130,11 @@
       "name": "arrow-down-right",
       "type": "registry:ui",
       "title": "Arrow down Right",
-      "description": "Animated X / close icon. Variants: spin (hover), shake (hover), shrink (click).",
+      "description": "Animated Arrow down Right",
       "dependencies": ["lucide-react", "framer-motion"],
       "files": [
         {
-          "path": "registry/new-york/icons/x/x.tsx",
+          "path": "registry/new-york/icons/arrows/arrow-down-right/arrow-down-right.tsx",
           "type": "registry:ui"
         }
       ]
