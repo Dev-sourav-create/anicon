@@ -3,7 +3,10 @@
   "name": "arrow-down-right",
   "title": "Arrow down Right",
   "description": "Animated Arrow down Right",
-  "dependencies": ["lucide-react", "framer-motion"],
+  "dependencies": [
+    "lucide-react",
+    "framer-motion"
+  ],
   "files": [
     {
       "path": "registry/new-york/icons/arrows/arrow-down-right/arrow-down-right.tsx",

@@ -88,6 +88,17 @@
       ]
     },
     {
+      "name": "arrow-left",
+      "type": "registry:ui",
+      "dependencies": ["lucide-react"],
+      "files": [
+        {
+          "path": "registry/new-york/icons/arrows/arrow-left/arrow-left.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
       "name": "loader-circle",
       "type": "registry:ui",
       "title": "Loader Circle",
